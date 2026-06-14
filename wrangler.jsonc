@@ -10,7 +10,7 @@
   // routing layer (~1-2ms), but DO broadcast (batch × sockets) can reach
   // ~15-20ms on large fan-outs. 30ms gives safe headroom for both.
   "limits": {
-    "cpu_ms": 30
+   // "cpu_ms": 30
   },
   // Route Worker close to the DO, not the client edge
   "placement": {
